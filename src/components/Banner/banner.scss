@@ -1,0 +1,41 @@
+.banner {
+    //padding: 0 2rem;
+    width: 100%;
+    max-width: 1240px; /* Définissez une largeur maximale pour la bannière */
+    
+    overflow: hidden;
+    padding-top: 70px;
+    
+    
+    background-image: url('../../../public/banner_index.png'); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* L'image couvrira toute la bannière */
+    background-position: center; /* Centrez l'image */
+    filter: brightness(60%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    height: 223px; /* Définissez la hauteur de l'image */
+    object-fit: cover; /* L'image sera redimensionnée pour couvrir la bannière sans déformation */
+    border-radius: 25px;
+    
+    h1 {
+        color: #fff;
+        filter: none;
+        font-size: 48px;
+        font-weight: 700;
+        text-align: center;
+        white-space: nowrap; /* Empêche le texte de se diviser en plusieurs lignes */
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); // Centrer le texte
+    }
+    
+    @media (max-width: 1240px) {
+        img {
+            height: auto; /* Ajustez la hauteur proportionnellement pour les écrans plus petits */
+        }
+    }
+}
