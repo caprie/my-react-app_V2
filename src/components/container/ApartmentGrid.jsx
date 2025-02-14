@@ -1,7 +1,7 @@
 import React from 'react';
 import './apartmentGrid.scss';
 
-// Simulons une liste d'appartements
+// simulation liste d'apparts
 const apartments = [
   { id: 1, title: 'Appartement Cozy', image: '/img1.jpg' },
   { id: 2, title: 'Loft Moderne', image: '/img2.jpg' },

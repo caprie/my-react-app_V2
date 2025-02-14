@@ -1,16 +1,20 @@
 .footer {
-    background-color: #f5f5f5; // couleur de fond claire par exemple
-    padding: 20px;
+    background-color: black; 
+    padding: 20px 0;
     text-align: center;
-  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     .footer-logo {
-      height: 50px; // ajuste selon tes besoins
+      height: 50px; 
     }
   
     .footer-text {
-      margin-top: 10px;
       font-size: 14px;
-      color: black;
+      color: white;
     }
   }
   

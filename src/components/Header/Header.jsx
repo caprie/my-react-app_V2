@@ -1,7 +1,5 @@
 
   import React from 'react'                           // Import React library
-  //import logo from '../../../assets/logo_index.png' // import logo
-  //import "./Footer.scss"                             // Import CSS file
   import "./Header.scss"
   
  

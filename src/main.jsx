@@ -2,9 +2,9 @@ import React, { StrictMode } from 'react'                          // Importe bi
 import ReactDOM from 'react-dom/client'                            // Importe biblio ReactDOM
 import App from './App'  
 import './main.scss' 
-//import ApartmentCard from '../Apartment/ApartmentCard';
 
-// Simulons une liste d'appartements (tu pourras récupérer ces données d'une API plus tard)
+
+// simulation d'une liste d'apparts
 const apartments = [
   { id: 1, title: 'Appartement Cozy', image: '/img1.jpg' },
   { id: 2, title: 'Loft Moderne', image: '/img2.jpg' },
