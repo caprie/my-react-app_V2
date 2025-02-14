@@ -1,41 +1,39 @@
 .banner {
-    //padding: 0 2rem;
+    position: relative;
     width: 100%;
-    max-width: 1240px; /* Définissez une largeur maximale pour la bannière */
-    
-    overflow: hidden;
-    padding-top: 70px;
-    
-    
-    background-image: url('../../../public/banner_index.png'); /* Remplacez par le chemin de votre image */
-    background-size: cover; /* L'image couvrira toute la bannière */
-    background-position: center; /* Centrez l'image */
-    filter: brightness(60%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 90px;
-    height: 223px; /* Définissez la hauteur de l'image */
-    object-fit: cover; /* L'image sera redimensionnée pour couvrir la bannière sans déformation */
+    max-width: 1200px; 
+    //padding-inline: 2rem;
+    margin: 20px auto;
     border-radius: 25px;
-    
-    h1 {
-        color: #fff;
-        filter: none;
-        font-size: 48px;
-        font-weight: 700;
-        text-align: center;
-        white-space: nowrap; /* Empêche le texte de se diviser en plusieurs lignes */
-        margin: 0;
+    overflow: hidden;
+    //display: flex;
+    //align-items: center;
+    //justify-content: center;
+    margin-top: 0px;
+    //margin-bottom: 30px;
+    height: 223px;
+    /* On enlève le filter ici */
+    //background-image: url(/banner_index.png);
+    filter: brightness(50%); /* Ou brightness(60%) si tu utilises l'overlay ci-dessous */
+    //border-radius: 10px;
+
+
+    .banner-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(60%); // Assombrit l'image pour rendre le texte lisible
+      }    
+
+      .banner-text {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%); // Centrer le texte
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+      }
     }
-    
-    @media (max-width: 1240px) {
-        img {
-            height: auto; /* Ajustez la hauteur proportionnellement pour les écrans plus petits */
-        }
-    }
-}
+

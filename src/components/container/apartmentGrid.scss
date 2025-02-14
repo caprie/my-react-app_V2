@@ -1,0 +1,44 @@
+// src/components/container/apartmentGrid.scss
+.apartment-grid {
+    // Tu peux ajouter ici des styles spécifiques au conteneur de la grille si besoin.
+    display: grid;
+    grid-template-columns: repeat(3, 340px); // Colonnes dynamiques
+    grid-template-rows: repeat(2, 340px); // 2 lignes de 340px
+    gap: 20px; // Espacement entre les cartes
+    max-width: calc(3 * 340px + 2 * 20px);
+    margin: auto; // Centrage horizontal
+    justify-content: center; // Centre la grille
+    align-items: center; // Centre verticalement (si nécessaire)
+    padding: 20px;
+    }
+  
+  
+  .apartment-card {
+    background-color: #ff6060;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    width: 340px;
+    height: 340px;
+  /* Rectangle 2 */
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+
+    .apartment-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px 8px 0 0; 
+    }
+  
+    h3 {
+      padding: 10px;
+      font-size: 18px;
+      color: #333;
+    }
+  }

@@ -1,13 +1,17 @@
 import React from 'react'
-import Nav from './components/Nav/Nav.jsx'
+import Header from './components/Header/Header'
+import Banner from './components/Banner/Banner'
+import Container from './components/container/Container'
+import Footer from './components/Footer/Footer'
 import './App.scss'
-import Banner from './components/Banner/Banner.jsx'
 
 function App() {
   return (
-    <div>
-      <Nav />
-      <Banner />  
+    <div className="App">
+      <Header />
+      <Banner />
+      <Container />  {/* Contient la grille d'appartements avec le fond coloré */}
+      <Footer />
     </div>
   );
 }

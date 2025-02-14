@@ -1,7 +1,16 @@
-#Footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-}
+.footer {
+    background-color: #f5f5f5; // couleur de fond claire par exemple
+    padding: 20px;
+    text-align: center;
+  
+    .footer-logo {
+      height: 50px; // ajuste selon tes besoins
+    }
+  
+    .footer-text {
+      margin-top: 10px;
+      font-size: 14px;
+      color: black;
+    }
+  }
+  
