@@ -1,9 +1,15 @@
+import React from "react";
+import Banner from "../../components/Banner/Banner";
+import Container from "../../components/Container/Container";
+const Home = () => {
+  return (<div>
+    <Banner />
+    <Container />
 
-FragmentDirective
-import React from 'react'
+   
+  </div>);
 
-export default function Home() {
-  return (
-    <div>Home</div>
-  )
-}
+  
+};
+
+export default Home;

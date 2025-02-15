@@ -1,7 +1,9 @@
-import React, { StrictMode } from 'react'                          // Importe biblio React et StrictMode
-import ReactDOM from 'react-dom/client'                            // Importe biblio ReactDOM
+import React, { StrictMode } from 'react'                          // Importe biblio React et StrictMode pour verifier et avertissements 
+import ReactDOM from 'react-dom/client'                           
+import { BrowserRouter } from 'react-router-dom';
 import App from './App'  
 import './main.scss' 
+
 
 
 // simulation d'une liste d'apparts
@@ -24,15 +26,17 @@ const Main = () => {
   );
 };
 
-export default Main;
-
-
 const root = ReactDOM.createRoot(document.getElementById('root'));  // Crée racine ReactDOM
 root.render(                                                        // Affiche component App dans racine
-  <React.StrictMode>                                                
-    <App />                                                         
-  </React.StrictMode>                                               
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>                                              
 );
+
+export default Main
+
+
+
 
 
 

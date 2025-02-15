@@ -1,3 +1,7 @@
-import { findRenderedComponentWithType } from "react-dom/test-utils";
+import React from "react";
 
-findRenderedComponentWithType
+const NotFound = () => {
+    return <div>Erreur 404 : Page introuvable</div>;
+};
+
+export default NotFound

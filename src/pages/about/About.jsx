@@ -1,3 +1,7 @@
-import { findRenderedComponentWithType } from "react-dom/test-utils";
+import React from "react";
 
-findRenderedComponentWithType
+const About = () => {
+    return <div><h2>Bienvenue sur la page À Propos</h2></div>;
+};
+
+export default About;
