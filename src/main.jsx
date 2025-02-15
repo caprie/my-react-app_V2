@@ -17,7 +17,7 @@ const Main = () => {
     <main className="main-container">
       <div className="grid">
         {apartments.map(apartment => (
-          <ApartmentCard key={apartment.id} title={apartment.title} image={apartment.image} />
+          <apartmentCard key={apartment.id} title={apartment.title} image={apartment.image} />
         ))}
       </div>
     </main>
