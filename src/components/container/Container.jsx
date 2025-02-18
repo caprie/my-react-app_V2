@@ -1,13 +1,11 @@
 import React from 'react';
 import './container.scss';
-import ApartmentGrid from './ApartmentGrid';
 
-const Container = () => {  // container avec les apparts
+
+const Container = ({ children }) => {
   return (
-    <div className="container">
-      <ApartmentGrid />   {/* affiche les apparts */}
-    </div>
-  );
+    <div className="container">{children}</div>
+  )  
 };
 
 export default Container;
