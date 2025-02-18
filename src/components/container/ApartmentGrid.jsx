@@ -36,14 +36,15 @@ const ApartmentGrid = () => {
 
   return (
     <div className="apartment-grid">
-      {apartments.map(apartment => (
-        <div key={apartment.id} className="apartment-card">
+      {apartments.map(apartment => ( 
+
+        <div key={apartment.id} className="apartment-card"> {/* affiche les images et les titres */}
           <img
-             src={apartment.image ? apartment.image : "https://via.placeholder.com/150"}
-            alt={apartment.title}
-            className="apartment-image"
+             src={apartment.image ? apartment.image : "https://via.placeholder.com/150"} // affiche une image par défaut si l'image n'est pas chargée
+            alt={apartment.title} // affiche le titre de l'appartement
+            className="apartment-image" // classe pour les images
           />
-          <div className="apartment-title">{apartment.title}</div>
+          <div className="apartment-title">{apartment.title}</div> {/* classe pour les titres*/}
         </div>
       ))}
     </div>

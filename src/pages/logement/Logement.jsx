@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const Logement = () => {
@@ -5,3 +6,4 @@ const Logement = () => {
 };
 
 export default Logement; 
+
