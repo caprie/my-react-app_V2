@@ -1,12 +1,34 @@
 import React from 'react'
-import { Link } from 'react-router-dom'; 
+import { NavLink } from 'react-router-dom'; 
 import './nav.scss'        
 
-function Nav() {
+const Nav = () => {
   return (
-    <nav className="nav">
-      <Link to="/" className="nav-link">Accueil</Link>
-      <Link to="/about" className="nav-link">À propos</Link> {/*marche pas */}
+    <nav className="header-nav">
+      <ul>
+        <li>
+          <NavLink
+            to="/"
+            end
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            Accueil
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/about"
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            À propos
+          </NavLink>
+        </li>
+        {/* Ajoute d'autres liens si besoin */}
+      </ul>
     </nav>
   )
 };

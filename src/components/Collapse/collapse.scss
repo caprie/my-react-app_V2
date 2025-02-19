@@ -1,0 +1,44 @@
+.collapse {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  .collapse-header {
+    background-color: #ff6060;
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  
+    h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 400;
+  }
+  
+  .fa-chevron-up {
+    transition: transform 0.3s ease;
+    color: #fff !important;
+    font-size: 22px;
+    //font-weight: 900;
+  }
+}
+  
+    .open {
+    transform: rotate(180deg);
+  }
+  
+  .collapse-content {
+    padding: 0 15px 0 15px;
+    background-color: #fff;
+    font-size: 14px;
+    color: black;
+    
+  }
+  

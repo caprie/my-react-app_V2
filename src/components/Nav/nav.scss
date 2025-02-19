@@ -10,6 +10,24 @@
         margin-right: auto;
     }
 
+    .nav-link {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        transition: text-decoration 0.2s ease-in-out;
+      
+        &:hover {
+          text-decoration: underline;
+          color: #ff6060;
+        }
+      }
+      
+      .nav-link.active {
+        text-decoration: underline; /* le soulignement pour le lien actif */
+        font-weight: bold;
+      }
+      
+
     .accueil {
         display: flex;
         justify-content: space-between;
