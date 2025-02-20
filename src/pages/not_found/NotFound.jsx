@@ -1,7 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "./NotFound.scss";
 
 const NotFound = () => {
-    return <div>Erreur 404 : Page introuvable</div>;
+    return (
+        <div className="notfound">
+            <h1 className="notfound-code">404</h1>
+            <p className="notfound-message">Oups! La page que vous demandez n'existe pas.</p>
+            <Link to="/" className="notfound-link">Retourner sur la page d'accueil</Link>
+     </div>
+    );
 };
 
 export default NotFound
