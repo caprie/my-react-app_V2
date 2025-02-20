@@ -1,26 +1,25 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import './apartmentGrid.scss'
 
 
 // liste des apparts avec images
 
 const ApartmentGrid = ({ apartments = [] }) => { // Default to an empty array
-  
-
+  console.log("Apartments data:", apartments); // pour débuguer 
   return (
     <div className="apartment-grid">
       {apartments.map(apartment => ( 
-        <div key={apartment.id} className="apartment-card"> {/* affiche les images et les titres */}
-          <img
-             src={apartment.cover} 
-             alt={apartment.title} 
-            className="apartment-image" // classe pour les images
-          />
-          <div className="apartment-title">{apartment.title}</div> {/* classe pour les titres*/}
-        </div>
+        <Link key={apartment.id} to={`/logement/${apartment.id}`} className="apartment-card-link">
+          <div className="apartment-card">
+            <img src={apartment.cover} alt={apartment.title} className="apartment-image" />
+            <div className="apartment-title">{apartment.title}</div>
+          </div>
+        </Link>
       ))}
     </div>
   );
 };
+  
 
 export default ApartmentGrid
