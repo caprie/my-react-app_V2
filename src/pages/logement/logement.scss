@@ -63,8 +63,6 @@
     color: #555;
     margin: 0.5em 0; /* espace entre le titre et la localisation*/
   }
-  
-  
 
   .logement-collapses {
     display: flex;
@@ -74,10 +72,8 @@
   
   .logement-collapses > * {
     flex: 1; /* chaque collapse occupe la même largeur */
-    
     color: #fff;
     padding: 15px; /* espace interne */
-    
     border: none;
   }
   

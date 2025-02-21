@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import './slideShow.scss';
+import React, { useState } from "react";
+import "./slideShow.scss";
 
-const SlideShow = ({ pictures }) => { 
+const SlideShow = ({ pictures }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const totalSlides = pictures.length;
 
@@ -15,11 +15,11 @@ const SlideShow = ({ pictures }) => {
   }
 
   const nextSlide = () => {
-    setCurrentSlide(prev => (prev === totalSlides - 1 ? 0 : prev + 1));
+    setCurrentSlide((prev) => (prev === totalSlides - 1 ? 0 : prev + 1));
   };
 
   const prevSlide = () => {
-    setCurrentSlide(prev => (prev === 0 ? totalSlides - 1 : prev - 1));
+    setCurrentSlide((prev) => (prev === 0 ? totalSlides - 1 : prev - 1));
   };
 
   return (
@@ -47,6 +47,5 @@ const SlideShow = ({ pictures }) => {
     </div>
   );
 };
-
 
 export default SlideShow;

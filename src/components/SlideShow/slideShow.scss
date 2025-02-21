@@ -52,25 +52,19 @@
   transition: background 0.3s;
   }
   
-  
-  /*.arrow:hover {
-    background: #ffe8e8;
-  }*/
-  
   .slide-number-container {
     
     position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
 
   }
 
   .slide-number {
    border-radius: 20%;
     color : #fff;
-   
     font-weight: 600;
     font-size: 18px;
    

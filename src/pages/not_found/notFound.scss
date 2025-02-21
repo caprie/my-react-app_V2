@@ -1,20 +1,4 @@
-/*.page-wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; 
-  }*/
-  
-  /*.content {
-    flex: 1; 
-  }*/
 
-    /*.footer {
-        background-color: #000;
-        color: #fff;
-        padding: 20px 0;
-        text-align: center;
-    }*/
-  
     .notfound {
         text-align: center;
         padding: 40px;
@@ -47,8 +31,6 @@
             &:hover {
               color: black;
               font-weight: 700;
-              //text-decoration: underline;
-
             }
         }
       }

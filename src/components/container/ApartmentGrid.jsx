@@ -1,18 +1,26 @@
-import React from 'react'
+import React from "react";
 import { Link } from "react-router-dom";
-import './apartmentGrid.scss'
-
+import "./apartmentGrid.scss";
 
 // liste des apparts avec images
 
-const ApartmentGrid = ({ apartments = [] }) => { // Default to an empty array
-  console.log("Apartments data:", apartments); // pour débuguer 
+const ApartmentGrid = ({ apartments = [] }) => {
+  // Default to an empty array
+  console.log("Apartments data:", apartments); // pour débuguer
   return (
     <div className="apartment-grid">
-      {apartments.map(apartment => ( 
-        <Link key={apartment.id} to={`/logement/${apartment.id}`} className="apartment-card-link">
+      {apartments.map((apartment) => (
+        <Link
+          key={apartment.id}
+          to={`/logement/${apartment.id}`}
+          className="apartment-card-link"
+        >
           <div className="apartment-card">
-            <img src={apartment.cover} alt={apartment.title} className="apartment-image" />
+            <img
+              src={apartment.cover}
+              alt={apartment.title}
+              className="apartment-image"
+            />
             <div className="apartment-title">{apartment.title}</div>
           </div>
         </Link>
@@ -20,6 +28,5 @@ const ApartmentGrid = ({ apartments = [] }) => { // Default to an empty array
     </div>
   );
 };
-  
 
-export default ApartmentGrid
+export default ApartmentGrid;

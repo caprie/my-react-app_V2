@@ -15,8 +15,6 @@
       color: inherit;
     }
   
-  
-  
   .apartment-card {
     background-color: #fff;
     display: flex;
@@ -31,12 +29,9 @@
     height: 340px;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
   
-
   &:hover {
     transform: scale(1.05);
   }
-
-  
 
   .apartment-image {
     width: 100%;

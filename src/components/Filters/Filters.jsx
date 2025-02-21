@@ -1,5 +1,5 @@
-import React from 'react';
-import './filters.scss';
+import React from "react";
+import "./filters.scss";
 
 const Filters = ({ tags }) => {
   return (
