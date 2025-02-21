@@ -2,7 +2,8 @@
   import React from 'react'                           // Import React library
   import { NavLink } from 'react-router-dom';
   import "./Header.scss"
-  
+  import '../../components/Nav/Nav';
+  import "./Header.scss";
  
   const Header = () => {
     return (
@@ -34,8 +35,6 @@
         </div>
       </header>
     );
-};
-
-
+  };
 
   export default Header;

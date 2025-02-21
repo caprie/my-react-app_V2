@@ -1,1 +1,83 @@
+.logement-header {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0;
+  }
+  
+  .logement-details {
+   
+    flex: 0 0 60%;  /* occupe 60% de la largeur */
+   
+  }
 
+  /* Pour forcer le titre sur une seule ligne */
+  .logement-details h1 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0; /* enlevé tout margin inutile*/
+    font-size: 1.8em; 
+  }
+
+  /* Style pour le profil du propriétaire */
+  .host-profile {
+    flex: 0 0 30%;  /* occupe 30% de la largeur */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .host-picture {
+   
+    height: 64px;
+    border-radius: 50%;
+    
+  }
+  
+  .host-name {
+    margin-top: 8px;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .host-rating {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;  /* Espace entre le nom et les étoiles*/
+    font-size: 1.2em;  /* Ajuste la taille des étoiles si besoin*/
+  }
+
+  .filters {
+    margin-top: 0.5em; /* espace entre la localisation et les filtres*/
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .logement-location {
+    font-size: 1.2em;
+    color: #555;
+    margin: 0.5em 0; /* espace entre le titre et la localisation*/
+  }
+  
+  
+
+  .logement-collapses {
+    display: flex;
+    gap: 20px; /* écart entre les deux collapses */
+    margin-top: 20px;
+  }
+  
+  .logement-collapses > * {
+    flex: 1; /* chaque collapse occupe la même largeur */
+    
+    color: #fff;
+    padding: 15px; /* espace interne */
+    
+    border: none;
+  }
+  

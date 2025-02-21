@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: repeat(3, 340px); // 3 colonnes de 340px
     grid-template-rows: repeat(auto-fit, minmax(250px, 1fr)); // hauteur mini de 250px
-    gap: 60px; 
+    gap: 70px; 
     max-width: 1200px; // largeur max de la grille
     margin: auto; 
     justify-content: center; 
