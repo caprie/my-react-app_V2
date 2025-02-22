@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import "./slideShow.scss";
+import React, { useState } from "react"
+import "./slideShow.scss"
 
 const SlideShow = ({ pictures }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -48,4 +48,4 @@ const SlideShow = ({ pictures }) => {
   );
 };
 
-export default SlideShow;
+export default SlideShow

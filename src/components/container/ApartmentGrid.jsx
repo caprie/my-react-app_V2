@@ -1,12 +1,12 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./apartmentGrid.scss";
+import React from "react"
+import { Link } from "react-router-dom"
+import "./apartmentGrid.scss"
 
 // liste des apparts avec images
 
 const ApartmentGrid = ({ apartments = [] }) => {
   // Default to an empty array
-  console.log("Apartments data:", apartments); // pour débuguer
+  
   return (
     <div className="apartment-grid">
       {apartments.map((apartment) => (
@@ -29,4 +29,4 @@ const ApartmentGrid = ({ apartments = [] }) => {
   );
 };
 
-export default ApartmentGrid;
+export default ApartmentGrid

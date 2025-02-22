@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import "./collapse.scss";
+import React, { useState } from "react"
+import "./collapse.scss"
 
 const Collapse = ({ title, children }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,4 +25,4 @@ const Collapse = ({ title, children }) => {
   );
 };
 
-export default Collapse;
+export default Collapse

@@ -1,8 +1,10 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
-import "./nav.scss";
+import React from "react"
+import { NavLink } from "react-router-dom"
+import "./nav.scss"
 
 const Nav = () => {
+
+  return (
   <nav className="header-nav">
     <ul>
       <li>
@@ -28,7 +30,8 @@ const Nav = () => {
       </li>
       {/* Ajoute d'autres liens si besoin */}
     </ul>
-  </nav>;
+  </nav>);
+  
 };
 
-export default Nav;
+export default Nav

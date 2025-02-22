@@ -1,8 +1,8 @@
-import React, { StrictMode } from "react";
-import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
-import App from "./App";
-import "./main.scss";
+import React, { StrictMode } from "react"
+import ReactDOM from "react-dom/client"
+import { BrowserRouter } from "react-router-dom"
+import App from "./App"
+import "./main.scss"
 
 // simulation d'une liste d'apparts
 const apartments = [
@@ -36,4 +36,4 @@ root.render(
   </BrowserRouter>
 );
 
-export default Main;
+export default Main

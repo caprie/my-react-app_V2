@@ -1,10 +1,10 @@
-import React from "react";
-import apartmentsData from "../../Data/data.json";
-import { useParams, Navigate } from "react-router-dom";
-import SlideShow from "../../components/SlideShow/SlideShow";
-import Filters from "../../components/Filters/Filters";
-import Collapse from "../../components/Collapse/Collapse";
-import "./logement.scss";
+import React from "react"
+import apartmentsData from "../../Data/data.json"
+import { useParams, Navigate } from "react-router-dom"
+import SlideShow from "../../components/SlideShow/SlideShow"
+import Filters from "../../components/Filters/Filters"
+import Collapse from "../../components/Collapse/Collapse"
+import "./logement.scss"
 
 const Logement = () => {
   const { id } = useParams(); // Récupère l'ID de l'URL
@@ -71,4 +71,4 @@ const Logement = () => {
   );
 };
 
-export default Logement;
+export default Logement

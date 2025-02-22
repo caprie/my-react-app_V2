@@ -1,7 +1,7 @@
-import React from "react";
-import Collapse from "../../components/Collapse/Collapse";
-import "./about.scss";
-import Banner from "../../components/Banner/Banner";
+import React from "react"
+import Collapse from "../../components/Collapse/Collapse"
+import "./about.scss"
+import Banner from "../../components/Banner/Banner"
 
 const About = () => {
   return (
@@ -51,4 +51,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default About
