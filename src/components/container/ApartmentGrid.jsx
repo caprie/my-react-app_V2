@@ -2,6 +2,8 @@ import React from "react"
 import { Link } from "react-router-dom"
 import "./apartmentGrid.scss"
 
+
+
 // liste des apparts avec images
 
 const ApartmentGrid = ({ apartments = [] }) => {
