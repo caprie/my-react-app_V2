@@ -1,14 +1,14 @@
 .filters {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 1em;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
 }
 
 .filter {
   background-color: #FF6060; // à ajuster selon ton design
   color: #fff;
-  padding: 5px 10px;
-  border-radius: 10px;
-  font-size: 0.9em;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.6rem;
+  font-size: 0.9rem;
 }
