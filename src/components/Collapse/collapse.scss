@@ -1,13 +1,13 @@
 .collapse {
-    border: 1px solid #ddd;
+    //border: 1px solid #ddd;
     border-radius: 8px;
     margin-bottom: 20px;
-    overflow: hidden;
+    //overflow: hidden;
     width: 1000px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
+    //display: flex;
+    //flex-direction: column;
+    //justify-content: center;
+    //margin: auto;
   }
   
   .collapse-header {
@@ -16,7 +16,7 @@
     cursor: pointer;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     border-radius: 10px;
   
   
@@ -38,6 +38,19 @@
 
     .open {
     transform: rotate(180deg);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden; /* masque le contenu quand il est fermé */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+    /*&.open {
+      
+      overflow: visible; 
+    }*/
   }
   
   .collapse-content {
