@@ -47,14 +47,14 @@
     flex-direction: column;
     margin: auto;
 
-    /*&.open {
-      
+    &.open {
+      /* Quand le collapse est ouvert, on veut que le contenu soit visible */
       overflow: visible; 
-    }*/
+    }
   }
   
   .collapse-content {
-    padding: 0 15px 0 15px;
+    padding: 15px;
     background-color: #fff;
     font-size: 14px;
     color: black; 

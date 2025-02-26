@@ -20,7 +20,7 @@ const Collapse = ({ title, children }) => {
           }}
         />
       </div>
-      {isOpen && <div className="collapse-content">{children}</div>}
+      {isOpen && <div className="collapse-content">{children}</div>} 
     </div>
   );
 };
