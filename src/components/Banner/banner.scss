@@ -1,11 +1,12 @@
 .banner {
   position: relative;
-  width: 100%;
+  width: 122%;
   margin: 1.25rem auto;
   border-radius: 1.5rem;
   overflow: hidden; /* empeche le debordement des elements*/
   height: 12rem;
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.20);
+  margin-left: -10%;
 
   .banner_overlay {
     position: absolute; /* Superpose le texte sur l’image*/
@@ -44,6 +45,48 @@
     font-weight: bold;
     text-align: center;
     width: 100%;
+  }
+}
+
+/* Pour tablettes (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .banner {
+    height: 8rem;         /* Hauteur encore plus réduite */
+    margin: 0.75rem auto;  /* Marges encore ajustées */
+    border-radius: 1rem;   /* Rayons encore réduits */
+    margin-left: -95px;
+    width: 165%;
+  }
+  
+  .banner_overlay {
+    h1 {
+      font-size: 1.3rem;  /* Taille de texte réduite */
+    }
+  }
+  
+  .banner-text {
+    font-size: 1.3rem;
+  }
+}
+
+/* Pour smartphones (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  .banner {
+    height: 8rem;         /* Hauteur encore plus réduite */
+    margin: 0.75rem auto;  /* Marges encore ajustées */
+    border-radius: 1rem;   /* Rayons encore réduits */
+    margin-left: -75px;
+    width: 315%;
+    }
+  
+  .banner_overlay {
+    h1 {
+      font-size: 1.1rem;  /* Taille de texte adaptée pour petit écran */
+    }
+  }
+  
+  .banner-text {
+    font-size: 1.1rem;
   }
 }
 

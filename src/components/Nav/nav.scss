@@ -26,3 +26,45 @@
     }
   }
 }
+
+/* Pour tablettes (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .header-nav ul {
+    height: 10rem;        /* Hauteur réduite */
+    margin: 1rem;    /* Marges ajustées */
+    border-radius: 1.2rem; /* Rayons légèrement réduits */
+    width: 170%;
+    margin-left: -25px;
+  }
+  
+  .banner_overlay {
+    h1 {
+      font-size: 1.3rem;  /* Taille de texte réduite */
+    }
+  }
+  
+  .banner-text {
+    font-size: 1.3rem;
+  }
+}
+
+/* Pour smartphones (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  .banner {
+    height: 8rem;         /* Hauteur encore plus réduite */
+    //margin: 0.75rem auto;  /* Marges encore ajustées */
+    border-radius: 1rem;   /* Rayons encore réduits */
+    margin-left: -75px;
+    width: 315%;
+    }
+  
+  .banner_overlay {
+    h1 {
+      font-size: 1.1rem;  /* Taille de texte adaptée pour petit écran */
+    }
+  }
+  
+  .banner-text {
+    font-size: 1.1rem;
+  }
+}
