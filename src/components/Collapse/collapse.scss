@@ -1,37 +1,38 @@
 .collapse {
     //border: 1px solid #ddd;
-    border-radius: 0.5rem;
-    margin-bottom: 1.25rem;
+    border-radius: 8px;
+    margin-bottom: 20px;
     //overflow: hidden;
-    width: 62.5rem;
-    //display: flex;
-    //flex-direction: column;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
     //justify-content: center;
     //margin: auto;
   }
   
   .collapse-header {
     background-color: #ff6060;
-    padding: 0.8rem;
+    padding: 13px;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    border-radius: 0.6rem;
+    align-items: center;
+    border-radius: 10px;
+    //width: 90%;
   
   
     h2 {
     margin: 0;
-    font-size: 1.12rem;
+    font-size: 18px;
     color: #fff;
-    border-radius: 0.3rem;
+    border-radius: 5px;
     font-weight: 400;
   }
   
   .fa-chevron-up {
     transition: transform 0.3s ease;
     color: #fff !important;
-    font-size: 1.35rem;
+    font-size: 22px;
     //font-weight: 900;
   }
 }
@@ -39,8 +40,8 @@
     .open {
     transform: rotate(180deg);
     border: 1px solid #ddd;
-    border-radius: 0.5rem;
-    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 24px;
     overflow: hidden; /* masque le contenu quand il est fermé */
     width: 100%;
     display: flex;
@@ -54,9 +55,9 @@
   }
   
   .collapse-content {
-    padding: 1rem;
+    padding: 16px;
     background-color: #fff;
-    font-size: 0.8rem;
+    font-size: 13px;
     color: black; 
   }
   

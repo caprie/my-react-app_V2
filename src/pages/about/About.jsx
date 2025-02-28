@@ -15,7 +15,7 @@ const About = () => {
           <p>
             Les annonces postées sur Kaza garantissent une fiabilité totale. Les
             photos sont conformes aux logements, et toutes les informations sont
-            régulièrement vérifiées par nos équipes.
+            réguliè20pxent vérifiées par nos équipes.
           </p>
         </Collapse>
 

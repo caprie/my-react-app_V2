@@ -2,7 +2,7 @@
   ul {
     list-style: none;
     display: flex;
-    gap: 1.5rem;
+    gap: 24px;
     margin: 0;
     padding: 0;
   }
@@ -22,7 +22,7 @@
     }
     
     .active {
-     border-bottom: solid 0.1rem black;
+     border-bottom: solid 0.16px black;
       font-weight: 700;
     }
   }
@@ -31,41 +31,41 @@
 /* Pour tablettes (max-width: 768px) */
 @media screen and (max-width: 768px) {
   .header-nav ul {
-    height: 10rem;        /* Hauteur réduite */
-    margin: 1rem;    /* Marges ajustées */
-    border-radius: 1.2rem; /* Rayons légèrement réduits */
+    height: 160px;        /* Hauteur réduite */
+    margin: 16px;    /* Marges ajustées */
+    border-radius: 1.32px; /* Rayons légè20pxent réduits */
     width: 170%;
     margin-left: -25px;
   }
   
   .banner_overlay {
     h1 {
-      font-size: 1.3rem;  /* Taille de texte réduite */
+      font-size: 1.320px;  /* Taille de texte réduite */
     }
   }
   
   .banner-text {
-    font-size: 1.3rem;
+    font-size: 1.320px;
   }
 }
 
 /* Pour smartphones (max-width: 480px) */
 @media screen and (max-width: 480px) {
   .banner {
-    height: 8rem;         /* Hauteur encore plus réduite */
-    //margin: 0.75rem auto;  /* Marges encore ajustées */
-    border-radius: 1rem;   /* Rayons encore réduits */
+    height: 128px;         /* Hauteur encore plus réduite */
+    //margin: 12px auto;  /* Marges encore ajustées */
+    border-radius: 16px;   /* Rayons encore réduits */
     margin-left: -75px;
     width: 315%;
     }
   
   .banner_overlay {
     h1 {
-      font-size: 1.1rem;  /* Taille de texte adaptée pour petit écran */
+      font-size: 1.16px;  /* Taille de texte adaptée pour petit écran */
     }
   }
   
   .banner-text {
-    font-size: 1.1rem;
+    font-size: 1.16px;
   }
 }

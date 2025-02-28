@@ -3,11 +3,9 @@
     flex-wrap: nowrap; 
     justify-content: space-between;
     align-items: center;
-<<<<<<< HEAD
+
     margin: 16px 0;
-=======
-    margin: 1rem 0;
->>>>>>> 0ec1a3b33b8dca9169724801caddbf96331d070d
+
   }
   
   .logement-details {
@@ -22,11 +20,9 @@
     overflow: hidden;
     text-overflow: ellipsis;
     margin: 0; /* enlevé tout margin inutile*/
-<<<<<<< HEAD
+
     font-size: 29px; 
-=======
-    font-size: 1.8rem; 
->>>>>>> 0ec1a3b33b8dca9169724801caddbf96331d070d
+
   }
 
   /* Style pour le profil du propriétaire */
@@ -41,52 +37,49 @@
   
   .host-picture {
    
-    height: 4rem;
+    height: 420px;
     border-radius: 50%;
     
   }
   
   .host-name {
-<<<<<<< HEAD
+
     margin-top: 8px;
     font-size: 16px;
-=======
-    margin-top: 0.5rem;
-    font-size: 1rem;
->>>>>>> 0ec1a3b33b8dca9169724801caddbf96331d070d
+
     color: #333;
   }
   
   .host-rating {
     display: flex;
-    gap: 0.3rem;
-    margin-top: 0.1rem;  /* Espace entre le nom et les étoiles*/
-    font-size: 1.2rem;  /* Ajuste la taille des étoiles si besoin*/
+    gap: 5px;
+    margin-top: 0.16px;  /* Espace entre le nom et les étoiles*/
+    font-size: 1.32px;  /* Ajuste la taille des étoiles si besoin*/
   }
 
   .filters {
     margin-top: 0.5em; /* espace entre la localisation et les filtres*/
     display: flex;
     flex-wrap: wrap;
-    gap: 0.6rem;
+    gap: 10px;
   }
   
   .logement-location {
-    font-size: 1.2rem;
+    font-size: 1.32px;
     color: #555;
-    margin: 0.5rem 0; /* espace entre le titre et la localisation*/
+    margin: 8px 0; /* espace entre le titre et la localisation*/
   }
 
   .logement-collapses {
     display: flex;
-    gap: 1.25rem; /* écart entre les deux collapses */
-    margin-top: 1rem;
+    gap: 20px; /* écart entre les deux collapses */
+    margin-top: 16px;
   }
   
   .logement-collapses > * {
     flex: 1; /* chaque collapse occupe la même largeur */
     color: #fff;
-    padding: 1rem; /* espace interne */
+    padding: 16px; /* espace interne */
     border: none;
   }
   
