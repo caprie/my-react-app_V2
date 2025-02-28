@@ -1,27 +1,27 @@
 
     .notfound {
         text-align: center;
-        padding: 40px;
+        padding: 2.5rem;
         
         .notfound-code {
           font-size: 72px;
           color: #ff6060; /* Exemple de couleur */
-          margin-bottom: 20px;
-          margin-top: 0px;
-          font-size: 250px;
+          margin-bottom: 0.6rem;
+          margin-top: 0;
+          font-size: 11rem;
         }
         
         .notfound-message {
           font-weight: 500;
           font-size: 28px;
           color: #ff6060;
-          margin-top: -20px;
+          margin-top: -0.6rem;
         }
 
         .notfound-link {
             display: inline-block;
-            margin-top: 25px;
-            font-size: 12px;
+            margin-top: 1rem;
+            font-size: 0.7rem;
             font-weight: 500;
             color: black;
             text-decoration: none;
