@@ -28,9 +28,10 @@ const Nav = () => {
           À propos
         </NavLink>
       </li>
-      {/* Ajoute d'autres liens si besoin */}
+      
     </ul>
-  </nav>);
+  </nav>
+  )
   
 };
 

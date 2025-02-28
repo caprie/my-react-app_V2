@@ -3,7 +3,7 @@
     flex-wrap: nowrap; 
     justify-content: space-between;
     align-items: center;
-    margin: 1em 0;
+    margin: 16px 0;
   }
   
   .logement-details {
@@ -18,7 +18,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     margin: 0; /* enlevé tout margin inutile*/
-    font-size: 1.8em; 
+    font-size: 29px; 
   }
 
   /* Style pour le profil du propriétaire */
@@ -40,7 +40,7 @@
   
   .host-name {
     margin-top: 8px;
-    font-size: 1em;
+    font-size: 16px;
     color: #333;
   }
   
@@ -77,9 +77,9 @@
     border: none;
   }
   
-ul {
+/*ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  /*transition: all 0.9s ease-in-out;*/
-}
+  transition: all 0.9s ease-in-out;
+}*/

@@ -9,6 +9,7 @@
 
   li {
     .nav-link {
+      display: inline-block; /* Ajouté pour permettre l'affichage de border-bottom */
       text-decoration: none;
       color: black;
       font-weight: 500;

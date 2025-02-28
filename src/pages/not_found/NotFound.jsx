@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import "./NotFound.scss"
 
 const NotFound = () => {
+    
     return (
         <div className="notfound">
             <h1 className="notfound-code">404</h1>
