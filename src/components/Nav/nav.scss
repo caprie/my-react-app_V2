@@ -14,7 +14,9 @@
       color: black;
       font-weight: 500;
       transition: text-decoration 0.2s ease-in-out;
-      
+      @media screen and (max-width: 500px) {
+        font-size: 14px;
+      }
       &:hover {
         color: #ff6060;
       }
@@ -27,43 +29,5 @@
   }
 }
 
-/* Pour tablettes (max-width: 768px) */
-@media screen and (max-width: 768px) {
-  .header-nav ul {
-    height: 160px;        /* reduction hauteur */
-    margin: 16px;    /* ajustement marges */
-    border-radius: 1.32px; /* legerement reduit */
-    width: 170%;
-    margin-left: -25px;
-  }
-  
-  .banner_overlay {
-    h1 {
-      font-size: 20px;  /* taille texte */
-    }
-  }
-  
-  .banner-text {
-    font-size: 20px;
-  }
-}
 
-/* Pour smartphones (max-width: 480px) */
-@media screen and (max-width: 480px) {
-  .banner {
-    height: 128px;         /* hauteur reduite */
-    border-radius: 16px;   /* radius reduit */
-    margin-left: -75px;
-    width: 315%;
-    }
-  
-  .banner_overlay {
-    h1 {
-      font-size: 1.16px;  /* taille texte reduit */
-    }
-  }
-  
-  .banner-text {
-    font-size: 1.16px;
-  }
-}
+

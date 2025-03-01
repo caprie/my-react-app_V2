@@ -13,63 +13,11 @@
   .header-logo {
     height: 50px;
     margin-left: -8px;
-  }
-}
-
-/* Pour tablettes (max-width: 768px) */
-@media screen and (max-width: 768px) {
-  .header {
-    height: 128px;         
-    margin: 12px;  
-    margin-left: -90px;
-    width: 165%;
-    margin-bottom: -5.1128px;
-  }
-
-  .header-logo {
-    height: 40px; 
-    margin-top: -190px;
-    margin-left: 16px;
-  }
-
-  .header-nav ul {
-    height: 160px;        
-  }
-}
-@media screen and (max-width: 768px) { 
-  .header {
-    height: 128px;         
-    margin: 12px;  
-    margin-left: -90px;
-    width: 165%;
-    margin-bottom: -5.1128px;
-  }
-
-  .header-logo {
-    height: 40px; 
-    margin-top: -190px;
-    margin-left: 16px;
-  }
-
-  .header-nav ul {
-    height: 160px;        
-  }
-}
-
-/* Pour smartphones (max-width: 480px) */
-@media screen and (max-width: 480px) {
-  .header {
-    height: 128px;         
-    margin: 12px;     
-    margin-left: -90px;
-    width: 315%;
-    margin-bottom: -28px;
+    @media screen and (max-width: 500px) {
+      width: 100px;
+      height: 40px;
+      
     }
-
-  .header-logo {
-    height: 40px; 
-    margin-top: -190px;
-    margin-left: 16px;
   }
 }
-  
+

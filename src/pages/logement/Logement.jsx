@@ -8,20 +8,19 @@ import "./logement.scss"
 
 const Logement = () => {
   const { id } = useParams(); // Récupère l'ID de l'URL
-  console.log("ID Logement:", id);
 
-  // Trouver l'objet logement correspondant à l'ID
+  // objet logement qui correspond à l'ID
   const logement = apartmentsData.find((item) => item.id === id);
 
-  // Si aucun logement n'est trouvé, on affiche un message d'erreur
+  // si aucun logement trouvé message d'erreur
   if (!logement) {
     return <Navigate to="/404" />;
   }
 
-  // Convertir la note en nombre
+  // convertit note en nombre
   const rating = parseInt(logement.rating, 10);
 
-  // Préparer le contenu des équipements sous forme de liste
+  // contenu sous forme de liste
   const equipmentsContent = (
     <ul>
       {logement.equipments.map((equip, index) => (
@@ -30,14 +29,14 @@ const Logement = () => {
     </ul>
   );
 
-  // Sinon, on affiche les détails du logement
+  // sinon, affiche détails logement
   return (
     <div className="logement">
       <SlideShow pictures={logement.pictures} />
       <div className="logement-header">
         <div className="logement-details">
           <h1>{logement.title}</h1>
-          {/* Affichage de la localisation */}
+          {/* affiche localisation */}
           <p className="logement-location">{logement.location}</p>
 
           <Filters tags={logement.tags} />
@@ -50,7 +49,7 @@ const Logement = () => {
             className="host-picture"
           />
           <p className="host-name">{logement.host.name}</p>
-          {/* Affichage dynamique des étoiles */}
+          {/* affichage dynamique etoiles */}
           <div className="host-rating">
             {[...Array(5)].map((_, i) => (
               <i
