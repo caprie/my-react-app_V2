@@ -1,18 +1,10 @@
 .banner {
   position: relative;
-
-  //width: 122%; 
   margin: 20px auto;
   border-radius: 25px;
-  
-
   overflow: hidden; /* empeche le debordement des elements*/
   height: 223px;
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.20);
-
-  //margin-left: -10%;
-
-
 
   .banner_overlay {
     position: absolute; /* Superpose le texte sur l’image*/

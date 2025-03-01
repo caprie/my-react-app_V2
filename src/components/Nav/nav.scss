@@ -9,14 +9,13 @@
 
   li {
     .nav-link {
-      display: inline-block; /* Ajouté pour permettre l'affichage de border-bottom */
+      display: inline-block; /* permet l'affichage de border-bottom */
       text-decoration: none;
       color: black;
       font-weight: 500;
       transition: text-decoration 0.2s ease-in-out;
       
       &:hover {
-       
         color: #ff6060;
       }
     }
@@ -31,16 +30,16 @@
 /* Pour tablettes (max-width: 768px) */
 @media screen and (max-width: 768px) {
   .header-nav ul {
-    height: 160px;        /* Hauteur réduite */
-    margin: 16px;    /* Marges ajustées */
-    border-radius: 1.32px; /* Rayons légè20pxent réduits */
+    height: 160px;        /* reduction hauteur */
+    margin: 16px;    /* ajustement marges */
+    border-radius: 1.32px; /* legerement reduit */
     width: 170%;
     margin-left: -25px;
   }
   
   .banner_overlay {
     h1 {
-      font-size: 20px;  /* Taille de texte réduite */
+      font-size: 20px;  /* taille texte */
     }
   }
   
@@ -52,16 +51,15 @@
 /* Pour smartphones (max-width: 480px) */
 @media screen and (max-width: 480px) {
   .banner {
-    height: 128px;         /* Hauteur encore plus réduite */
-    //margin: 12px auto;  /* Marges encore ajustées */
-    border-radius: 16px;   /* Rayons encore réduits */
+    height: 128px;         /* hauteur reduite */
+    border-radius: 16px;   /* radius reduit */
     margin-left: -75px;
     width: 315%;
     }
   
   .banner_overlay {
     h1 {
-      font-size: 1.16px;  /* Taille de texte adaptée pour petit écran */
+      font-size: 1.16px;  /* taille texte reduit */
     }
   }
   

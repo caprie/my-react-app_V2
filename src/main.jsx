@@ -30,7 +30,7 @@ const Main = () => {
 
 const root = ReactDOM.createRoot(document.getElementById("root")); // Crée racine ReactDOM
 root.render(
-  // Affiche component App dans racine
+  // component App dans racine
   <BrowserRouter>
     <App />
   </BrowserRouter>

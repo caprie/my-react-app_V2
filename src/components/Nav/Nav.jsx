@@ -28,7 +28,6 @@ const Nav = () => {
           À propos
         </NavLink>
       </li>
-      
     </ul>
   </nav>
   )

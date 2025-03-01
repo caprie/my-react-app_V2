@@ -1,39 +1,30 @@
 .header {
-    background-color: #fff; 
-    padding: 20px;
-    
-    .header-container {
-      max-width: 1440px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    
-    .header-logo {
+  background-color: #fff;
+  padding: 20px;
 
-      height: 50px; 
-      margin-left: -64px;
-
-    }
-    
-    
-    
+  .header-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
-  /* Pour tablettes (max-width: 768px) */
+  .header-logo {
+    height: 50px;
+    margin-left: -8px;
+  }
+}
+
+/* Pour tablettes (max-width: 768px) */
 @media screen and (max-width: 768px) {
   .header {
     height: 128px;         
     margin: 12px;  
-    //border-radius: 16px;   
     margin-left: -90px;
     width: 165%;
-    //margin-left: 155px;
     margin-bottom: -5.1128px;
-    }
-
-  
+  }
 
   .header-logo {
     height: 40px; 
@@ -43,52 +34,42 @@
 
   .header-nav ul {
     height: 160px;        
-    //margin: 16px;    
-    //border-radius: 1.32px; 
-    //width: 170%;
-    //margin-left: -25px;
   }
-  
-  
-  /*.banner_overlay {
-    h1 {
-      font-size: 20px;  
-    }
-  }*/
-  
-  /*.banner-text {
-    font-size: 20px;
-  }*/
 }
-
-/* Pour smartphones (max-width: 480px) */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) { 
   .header {
     height: 128px;         
     margin: 12px;  
-    //border-radius: 16px;   
     margin-left: -90px;
-    width: 315%;
-    //margin-left: 155px;
+    width: 165%;
     margin-bottom: -5.1128px;
-    }
-
-  
+  }
 
   .header-logo {
     height: 40px; 
     margin-top: -190px;
     margin-left: 16px;
   }
-  
-  /*.banner_overlay {
-    h1 {
-      font-size: 1.16px;  
-    }
+
+  .header-nav ul {
+    height: 160px;        
   }
-  
-  .banner-text {
-    font-size: 1.16px;
-  }*/
+}
+
+/* Pour smartphones (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  .header {
+    height: 128px;         
+    margin: 12px;     
+    margin-left: -90px;
+    width: 315%;
+    margin-bottom: -28px;
+    }
+
+  .header-logo {
+    height: 40px; 
+    margin-top: -190px;
+    margin-left: 16px;
+  }
 }
   

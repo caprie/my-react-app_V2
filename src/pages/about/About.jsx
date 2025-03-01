@@ -6,16 +6,14 @@ import Banner from "../../components/Banner/Banner"
 const About = () => {
   return (
     <div className="about">
-      {/* Ici, on passe une image via URL directement depuis public */}
       <Banner image="/banner_about.png" showText={false} />
-
       <div className="about-content">
         {/* Sections repliables */}
         <Collapse title="Fiabilité">
           <p>
             Les annonces postées sur Kaza garantissent une fiabilité totale. Les
             photos sont conformes aux logements, et toutes les informations sont
-            réguliè20pxent vérifiées par nos équipes.
+            régulièrement vérifiées par nos équipes.
           </p>
         </Collapse>
 

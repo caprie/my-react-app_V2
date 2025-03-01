@@ -8,11 +8,11 @@ body {
 .App {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;  /* 100% de la hauteur de la fenêtre */
+    min-height: 100vh;  /* 100% hauteur fenêtre */
     margin: 0;
   }
   
   .main-content {
-    flex: 1;  /* Prend tout l'espace restant */
+    flex: 1;  /* occupe espace restant */
   }
   

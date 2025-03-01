@@ -3,62 +3,53 @@
     flex-wrap: nowrap; 
     justify-content: space-between;
     align-items: center;
-
     margin: 16px 0;
-
   }
   
-  .logement-details {
-   
-    flex: 0 0 60%;  /* occupe 60% de la largeur */
-   
+  .logement-details {   
+    flex: 0 0 60%;  /* 60% de large */   
   }
 
-  /* Pour forcer le titre sur une seule ligne */
+  /* forcer le titre sur 1 ligne */
   .logement-details h1 {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    margin: 0; /* enlevé tout margin inutile*/
-
+    margin: 0; /* retrait marges inutiles*/
     font-size: 29px; 
 
   }
 
   /* Style pour le profil du propriétaire */
   .host-profile {
-    flex: 0 0 30%;  /* occupe 30% de la largeur */
-    
+    flex: 0 0 30%;  /* 30% largeur */    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
   
-  .host-picture {
-   
+  .host-picture {   
     height: 4rem;
-    border-radius: 50%;
-    
+    border-radius: 50%;    
   }
   
   .host-name {
     margin-right: 250px;
     margin-top: -19px;
     font-size: 16px;
-
     color: #ff6060;
   }
   
   .host-rating {
     display: flex;
     gap: 5px;
-    margin-top: 0.16px;  /* Espace entre le nom et les étoiles*/
-    font-size: 1.2rem;  /* Ajuste la taille des étoiles si besoin*/
+    margin-top: 0.16px;  /* espace nom - etoiles*/
+    font-size: 1.2rem;  
   }
 
   .filters {
-    margin-top: 0.5em; /* espace entre la localisation et les filtres*/
+    margin-top: 0.5em; /* espace localisation - filtres*/
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -67,25 +58,19 @@
   .logement-location {
     font-size: 1.2rem;
     color: #555;
-    margin: 8px 0; /* espace entre le titre et la localisation*/
+    margin: 8px 0; /* espace titre - localisation*/
   }
 
   .logement-collapses {
     display: flex;
-    gap: 20px; /* écart entre les deux collapses */
+    gap: 20px; /* ecart entre collapse */
     margin-top: 16px;
   }
   
   .logement-collapses > * {
-    flex: 1; /* chaque collapse occupe la même largeur */
+    flex: 1; /* meme largeur tous collapse*/
     color: #fff;
     padding: 16px; /* espace interne */
     border: none;
   }
   
-/*ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  transition: all 0.9s ease-in-out;
-}*/
