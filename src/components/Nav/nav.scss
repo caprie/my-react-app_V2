@@ -2,14 +2,15 @@
   ul {
     list-style: none;
     display: flex;
-    gap: 24px;
-    margin: 0;
-    padding: 0;
+    gap: 46px;
+    //margin: 0;
+    //padding: 0;
+    //margin-left: 250px;
   }
 
   li {
     .nav-link {
-      display: inline-block; /* permet l'affichage de border-bottom */
+      display: flex; /* permet l'affichage de border-bottom */
       text-decoration: none;
       color: black;
       font-weight: 500;

@@ -2,21 +2,27 @@
 .apartment-grid {
     display: grid;
     grid-template-columns: repeat(3, 340px); // 3 colonnes de 340px
-    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr)); // hauteur mini de 250px
+    //grid-template-rows: repeat(auto-fit, minmax(250px, 1fr)); // hauteur mini de 250px
     gap: 70px; 
-    max-width: 1200px; // largeur max de la grille
+    
     margin: auto; 
-    padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    @media screen and (max-width: 1200px) {
-      grid-template-colums: repeat(2, 1fr);
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 1200px;
+
+    @media screen and (max-width: 1200px) and (min-width: 800px) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      max-width: 100%;
     }
 
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 800px) and (min-width: 500px) {
       grid-template-columns: 1fr;
+      gap: 20px;
+      max-width: 100%;
     }
-  }
+  
     a {
       text-decoration: none;
       color: #000;
@@ -68,7 +74,7 @@
         padding: 10px;
         font-size: 18px;
         font-weight: 500;
-        font-size: 18px;
+        
         color: #fff;
         text-align: left;
         bottom: 0px;
@@ -87,7 +93,7 @@
       
     }
     
-  }   
+  }  }   
     
     
     
