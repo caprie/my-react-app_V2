@@ -12,19 +12,19 @@
     left: 50%;
     transform: translate(-50%, -50%); /* Centre le texte*/
     width: 100%;
-    text-align: center;
+    text-align: center;  
     z-index: 10;
     color: white;
   
     h1 {
       color: white;
-      font-size: 2em;
+      font-size: 32px;
       font-weight: bold;
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* ajoute une ombre au texte*/
       font-size: 35px;
       @media screen and (max-width: 700px) {
         font-size: 20px;
-      }
+      } 
     }
   }
 
@@ -48,8 +48,11 @@
     text-align: center;
     width: 100%;
     
-  }
+  
 }
+}
+
+
 
 
 

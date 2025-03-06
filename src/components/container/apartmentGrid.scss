@@ -3,14 +3,20 @@
     display: grid;
     grid-template-columns: repeat(3, 340px); // 3 colonnes de 340px
     grid-template-rows: repeat(auto-fit, minmax(250px, 1fr)); // hauteur mini de 250px
-    gap: 30px; 
+    gap: 70px; 
     max-width: 1200px; // largeur max de la grille
     margin: auto; 
     padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    
-}
+    @media screen and (max-width: 1200px) {
+      grid-template-colums: repeat(2, 1fr);
+    }
+
+    @media screen and (max-width: 800px) {
+      grid-template-columns: 1fr;
+    }
+  }
     a {
       text-decoration: none;
       color: #000;
