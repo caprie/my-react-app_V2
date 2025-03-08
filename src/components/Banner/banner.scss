@@ -1,44 +1,41 @@
 .banner {
   position: relative;
-  //margin: 20px -60px;
   border-radius: 25px;
-  overflow: hidden; /* empeche le debordement des elements*/
+  overflow: hidden;
   height: 223px;
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.20);
   margin-left: -55px;
-  margin-right: -55px;
+  margin-right: 5%;
   margin-bottom: 5vh;
 
-  /*@media screen and (min-width: 501px) and (max-width: 801px) {
-    margin-left: -60px;
-    margin-right: -70px;*/
-    
-  } 
-  
+  @media screen and (min-width: 500px) and (max-width: 800px) {
+    height: 150px;
+    margin-right: 80px;
+  }
+
   .banner_overlay {
-    position: absolute; /* Superpose le texte sur l’image*/
-    top: 50%; /* Positionne le texte au milieu de l’image*/
+    position: absolute;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Centre le texte*/
+    transform: translate(-50%, -50%);
     width: 100%;
-    text-align: center;  
+    text-align: center;
     z-index: 10;
     color: white;
-  
+
     h1 {
       color: white;
-      
       font-weight: bold;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* ajoute une ombre au texte*/
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
       font-size: 35px;
 
-      @media screen and (min-width: 501px) and (max-width: 801px) {
+      @media screen and (min-width: 500px) and (max-width: 800px) {
         font-size: 20px;
-      } 
-      @media screen and (min-width: 801px) and (max-width: 1200px) {
+      }
+
+      @media screen and (min-width: 800px) and (max-width: 1200px) {
         font-size: 28px;
       }
-      
     }
   }
 
@@ -47,34 +44,22 @@
     height: 100%;
     object-fit: cover;
     position: relative;
-    filter: brightness(60%); 
-    @media screen and (min-width: 501px) and (max-width: 801px) {
+    filter: brightness(60%);
+
+    @media screen and (min-width: 500px) and (max-width: 800px) {
       font-size: 20px;
+    }
+
+    .banner-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+      width: 100%;
+    }
   }
-
-  .banner-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    width: 100%;
-    
-  
 }
-}
-
-
-
-
-
-
-      
-
-
-    
-
-      

@@ -7,10 +7,10 @@
   }
   
   .logement-details {   
-    flex: 0 0 60%;  /* 60% de large */   
+    flex: 0 0 60%;    
   }
 
-  /* forcer le titre sur 1 ligne */
+  /* forcer sur 1 ligne */
   .logement-details h1 {
     white-space: nowrap;
     overflow: hidden;
@@ -20,7 +20,7 @@
 
   }
 
-  /* Style pour le profil du propriétaire */
+  /* Style profil proprio */
   .host-profile {
     flex: 0 0 30%;  /* 30% largeur */    
     display: flex;

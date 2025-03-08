@@ -3,6 +3,7 @@
     list-style: none;
     display: flex;
     gap: 46px;
+
     @media screen and (min-width: 500px) and (max-width: 800px) {
       font-size: 14px;
     }
@@ -11,7 +12,6 @@
   li {
     .nav-link {
       display: flex;
-      /* permet l'affichage de border-bottom */
       text-decoration: none;
       color: black;
       font-weight: 500;
@@ -20,8 +20,7 @@
       @media screen and (min-width: 500px) and (max-width: 800px) {
         font-size: 16px;
         margin-right: 30px;
-        flex-wrap: nowrap;
-        
+        flex-wrap: nowrap;  
       }
 
       &:hover {
@@ -32,6 +31,7 @@
     .active {
       border-bottom: solid 0.16px black;
       font-weight: 700;
+      
       @media screen and (min-width: 500px) and (max-width: 800px) {
         font-size: 16px;
         margin-right: 30px;

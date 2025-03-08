@@ -1,7 +1,7 @@
 .apartment-grid {
   display: grid;
-  grid-template-columns: repeat(3, 340px); // 3 colonnes de 340px
-  //grid-template-rows: repeat(auto-fit, minmax(250px, 1fr)); // hauteur mini de 250px
+  grid-template-columns: repeat(3, 340px); // 3 colonnes 
+  
   gap: 70px;
 
   margin: auto;
@@ -10,13 +10,13 @@
   margin-right: 0px;
   max-width: 1200px;
 
-  @media screen and (max-width: 1200px) and (min-width: 800px) {
+  @media screen and (min-width: 800px) and (max-width: 1200px) {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     max-width: 100%;
   }
 
-  @media screen and (max-width: 800px) and (min-width: 500px) {
+  @media screen and (min-width: 500px) and (max-width: 800px) {
     grid-template-columns: 1fr;
     gap: 20px;
     max-width: 100%;
@@ -74,7 +74,6 @@
         padding: 10px;
         font-size: 18px;
         font-weight: 500;
-
         color: #fff;
         text-align: left;
         bottom: 0px;
@@ -82,15 +81,12 @@
         right: 0px;
         white-space: normal;
         background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.4) 50%, transparent 100%);
-
       }
 
       h3 {
         font-size: 18px;
         color: #333;
       }
-
-
     }
 
   }
